@@ -28,6 +28,12 @@ Ve a **Herramientas > Inventario**. Es lo primero que hay que configurar. Se pue
 
 Mas informacion: [[inventario]]
 
+### Si eliminamos un panel, desaparece de los estudios en los que se ha utilizado?
+
+No. Al crear un estudio, Suntropy guarda una **copia de los datos del panel** dentro del propio estudio, no una referencia al inventario. Por eso, si se elimina (o se desactiva) un panel del inventario, **los estudios donde ya se uso siguen intactos**: conservan las caracteristicas del panel original y se pueden seguir consultando, editando y exportando. Lo unico que cambia es que ese panel deja de estar disponible para nuevos estudios. Si el equipo va a dejar de usarse pero quieres mantener trazabilidad clara en el inventario, lo recomendable es **desactivarlo** en lugar de eliminarlo.
+
+Mas informacion: [[inventario]]
+
 ### Que plugins estan disponibles en Suntropy?
 
 Los plugins se activan en **Configuracion > Plugins**. Incluyen: complementos de consumo, equipos personalizados, presupuesto avanzado, recomendacion de inversor, trasladar consumo, intervalos de potencia, control de versiones, imagenes externas, IVA reducido, chat en presupuestos, entre otros.
