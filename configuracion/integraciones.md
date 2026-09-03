@@ -22,6 +22,13 @@ Envia presupuestos para ser firmados digitalmente por el cliente. Los documentos
 ### Pontio (financiacion)
 Integra con Pontio para ofrecer opciones de financiacion directamente desde el balance economico del estudio de [[autoconsumo-individual]].
 
+### Suntropy Connect
+Programa de escritorio que conecta el **PVsyst** o el **PV\*SOL** instalados en el ordenador
+del usuario con Claude o ChatGPT. Se contrata aparte del plan. Los ordenadores vinculados se
+ven y se desconectan en **Configuracion > Integraciones > Suntropy Connect**.
+
+Mas informacion: [[que-es-suntropy-connect]], [[gestion-de-equipos-connect]]
+
 ### Calculadora Solar (Solar Form)
 Si tienes contratada la calculadora solar embebible en tu web, configurala desde el apartado **"Mas"** en el menu principal. Es un micrositio whitelabel conectado con el backend de Suntropy.
 

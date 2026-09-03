@@ -222,6 +222,58 @@ Mas informacion: [[gestion-documentos]]
 
 ---
 
+## Suntropy Connect (PVsyst y PV*SOL)
+
+### Que es Suntropy Connect?
+
+Un programa de escritorio para Windows que conecta el **PVsyst** o el **PV\*SOL** ya instalados en el ordenador con un asistente de IA (Claude o ChatGPT), para pedirle en lenguaje natural que simule, compare variantes o resuma resultados. La licencia, el ordenador y los proyectos se quedan donde estan. Se descarga en https://connect.suntropy.ai
+
+Mas informacion: [[que-es-suntropy-connect]]
+
+### Puedo simular en PV*SOL desde Suntropy Connect?
+
+No, y no es algo pendiente: PV\*SOL no tiene linea de comandos ni API de calculo. Lo que si hace es **leer los resultados que el proyecto ya lleva guardados dentro**, que en PV\*SOL es mucho: produccion, autoconsumo, excedentes, cobertura solar, PR y la cascada de perdidas. En PVsyst si se simula, se crean y se editan proyectos.
+
+Mas informacion: [[que-es-suntropy-connect]]
+
+### Como vinculo mi ordenador?
+
+Se instala `PVsystConnect-Setup.exe` en el equipo que tiene PVsyst o PV\*SOL, se abre, y el programa muestra un codigo de emparejamiento que se aprueba en la pantalla `/link-device` de Suntropy. El codigo **caduca a los 10 minutos**; si se pasa, el programa da uno nuevo.
+
+Mas informacion: [[instalacion-y-vinculacion-connect]]
+
+### Me he registrado y no tengo ningun codigo
+
+El codigo lo da el programa de escritorio: hasta instalarlo no hay ninguno que escribir. La pantalla `/link-device` ofrece la descarga justo debajo del campo del codigo.
+
+Mas informacion: [[instalacion-y-vinculacion-connect]]
+
+### Cuanto cuesta y hay prueba gratuita?
+
+Prueba de **7 dias sin tarjeta**, y despues plan Individual a **18 EUR/mes** por usuario con pago anual (22,50 EUR/mes pagando mes a mes). La prueba es **una por empresa**, no una por usuario: si un companero ya la activo, esa cuenta la tiene consumida.
+
+Mas informacion: [[licencia-y-prueba-connect]]
+
+### Suntropy Connect incluye la licencia de PVsyst?
+
+No. Simular (`run_simulation`, `run_batch`) consume cuota de la **licencia de PVsystCLI del usuario**, que se contrata con PVsyst. Leer resultados, hacer graficas y crear o editar proyectos no consumen nada, y ninguna consulta de PV\*SOL consume licencia.
+
+Mas informacion: [[licencia-y-prueba-connect]]
+
+### Cuantas personas pueden usarlo a la vez?
+
+Las que permitan las **plazas** de la licencia, una por usuario. Un mismo usuario en dos ordenadores se desplaza a si mismo; si no quedan plazas, quien entra desaloja al menos activo.
+
+Mas informacion: [[licencia-y-prueba-connect]]
+
+### Como desconecto un ordenador?
+
+En **Configuracion > Integraciones > Suntropy Connect**. Desconectar **no cancela** la suscripcion: ese mismo equipo puede volver a conectarse cuando haga falta.
+
+Mas informacion: [[gestion-de-equipos-connect]]
+
+---
+
 ## Soporte
 
 ### Donde puedo encontrar ayuda y soporte de Suntropy?
