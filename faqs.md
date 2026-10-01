@@ -18,6 +18,12 @@ Suntropy utiliza Stripe como plataforma de pago. Se puede cambiar a plan Freemiu
 
 Mas informacion: [[suscripcion-y-pagos]]
 
+### Hay permanencia? Puedo contratar Suntropy solo algunos meses?
+
+No hay permanencia. Se puede contratar un mes y darse de baja en cuanto se quiera, y volver a contratar mas adelante (por ejemplo, solo los meses en los que se hacen estudios): la cuenta no se borra al bajar al plan gratuito. Pagar un año por adelantado es opcional y tiene un **20 % de descuento** sobre el precio mensual.
+
+Mas informacion: [[planes-de-suscripcion]], [[suscripcion-y-pagos]]
+
 ---
 
 ## Configuracion
@@ -140,6 +146,18 @@ Cuatro modalidades: **Vertido a red** (venta al precio fijado en euros/MWh), **P
 
 Mas informacion: [[excedentes-y-retribucion]]
 
+### Suntropy se conecta con SIPS para obtener los consumos?
+
+No. Por normativa, el acceso al SIPS es para fines de facturacion de las comercializadoras, no para uso comercial. Para tener la curva real del cliente, Suntropy se integra con **Datadis** (con el consumidor autorizado y la cuenta conectada). Tambien se puede importar un Excel de consumos, y Alexandria lo convierte al formato de Suntropy aunque venga en otro formato.
+
+Mas informacion: [[curvas-de-consumo]], [[integraciones]]
+
+### Se puede ver que parte del ahorro corresponde a las baterias?
+
+Si. En un estudio con almacenamiento se pueden mostrar los resultados **con y sin bateria** dentro del mismo estudio para comparar ahorro y rentabilidad. El calculo de baterias es horario para todo el ano, con una estrategia de carga y descarga simplificada (sin optimizacion de despacho).
+
+Mas informacion: [[baterias-y-optimizacion]]
+
 ### Cuales son los criterios de optimizacion de baterias?
 
 Tres criterios: excedentes totales almacenables (%), porcentaje de autoconsumo (independencia energetica) y dias de autonomia. El sistema evalua las baterias del inventario y filtra las que cumplen los criterios.
@@ -219,6 +237,122 @@ Mas informacion: [[editor-de-plantillas]]
 En **Herramientas > Documentos**: estudios compartidos (con metricas de visualizacion), plantillas, fondos de pagina y firmas digitales (documentos enviados a firmar con estado).
 
 Mas informacion: [[gestion-documentos]]
+
+---
+
+## Suntropy AI y Alexandria
+
+### Que es Suntropy AI y que es Alexandria?
+
+Suntropy AI es el Suntropy de siempre con una compañera de inteligencia artificial: **Alexandria**. Alexandria es un agente de IA que conoce Suntropy y el sector de la energia renovable: hace estudios, gestiona el inventario, edita plantillas y presupuestos, prepara legalizaciones y trabaja con las apps del negocio (correo, Google Drive, CRM). Esta en la seccion **Alexandria** del menu superior y en la pestaña flotante del borde derecho (**⌘J / Ctrl+J**).
+
+Mas informacion: [[que-es-suntropy-ai]]
+
+### En que se diferencia Alexandria de ChatGPT o Claude?
+
+Funciona con modelos de ese tipo, pero esta **entrenada y documentada para los procesos del sector** (estudios en Suntropy, facturas electricas, legalizaciones) y consulta una **base de conocimiento verificada** (IDAE, reales decretos, guias de tramitacion, manuales tecnicos) en lugar de depender de lo que encuentre en Internet. Llega antes al resultado y con menos errores, y ademas opera dentro de Suntropy.
+
+Mas informacion: [[que-es-suntropy-ai]]
+
+### Que puedo pedirle a Alexandria?
+
+Algunos ejemplos: dar de alta un panel o inversor desde su ficha tecnica (o buscandola en Internet); hacer un estudio de autoconsumo desde cero, desde una factura o desde un Excel de consumos; añadir paginas a un presupuesto o diseñar una plantilla; consultar normativa y subvenciones; preparar la documentacion de legalizacion; guardar documentos en Google Drive o enviarlos por correo. Puede trabajar en segundo plano y con varias tareas a la vez.
+
+Mas informacion: [[que-puede-hacer-alexandria]]
+
+### Hacer un estudio con Alexandria consume creditos?
+
+Si. Crear un estudio consume los mismos **creditos de Suntropy (soles)** que si lo creara el usuario. Por eso Alexandria pide confirmacion antes de crearlo. El uso de Alexandria (su plan) es aparte y no incluye creditos de estudios.
+
+Mas informacion: [[creditos]], [[planes-de-alexandria]]
+
+### Alexandria puede dibujar la cubierta?
+
+Todavia no: navega hasta la direccion y pide al usuario que dibuje la superficie; despues continua sola. Cuando se le pide el estudio por correo, en lugar de dibujar la cubierta optimiza directamente la potencia pico.
+
+Mas informacion: [[que-puede-hacer-alexandria]]
+
+### Como hago que no me pida confirmacion en cada paso?
+
+Diciendoselo: por ejemplo, "recuerda no pedirme autorizacion en los pasos intermedios". Lo guarda en su memoria y deja de preguntar. Las confirmaciones existen por seguridad y para no consumir creditos sin autorizacion.
+
+Mas informacion: [[canales-e-integraciones-alexandria]]
+
+### Puedo hablarle en lugar de escribir?
+
+Si, de dos formas: con **mensajes de voz**, que transcribe automaticamente, o con una **conversacion de voz en tiempo real**. Hablarle por WhatsApp o por llamada esta en desarrollo.
+
+Mas informacion: [[canales-e-integraciones-alexandria]]
+
+### Puedo escribirle por correo electronico?
+
+Si, a **alexandria@suntropy.ai**. Se le pueden pedir dudas, revisiones de estudios o datos de las apps conectadas, y adjuntarle una factura y un Excel de consumos para que haga practicamente todo el estudio.
+
+Mas informacion: [[canales-e-integraciones-alexandria]]
+
+### Alexandria recuerda cosas? Puedo ver o borrar lo que recuerda?
+
+Si. Guarda **recuerdos** (preferencias, datos de la empresa, forma de trabajar) y los usa en las siguientes conversaciones. Se ven y se pueden editar desde el inicio de la seccion Alexandria. En el onboarding se le pueden subir tres o cuatro presupuestos propios para que aprenda el estilo de la empresa.
+
+Mas informacion: [[canales-e-integraciones-alexandria]]
+
+### Alexandria puede hacer la legalizacion de una instalacion?
+
+Si. A partir de un estudio prepara la documentacion con los **modelos oficiales de la comunidad autonoma** (PDF rellenables, Word, Excel) y el **diagrama unifilar**. Tiene recetas para las 17 comunidades autonomas y Ceuta y Melilla. Son borradores que debe revisar y firmar el instalador habilitado.
+
+Mas informacion: [[legalizaciones-con-alexandria]]
+
+### Con que aplicaciones se conecta Alexandria?
+
+Desde el panel de aplicaciones conectadas de Alexandria: por ejemplo Gmail, Google Drive y HubSpot, y se iran añadiendo mas (tambien del sector). Se pulsa **Conectar** y se autoriza en el navegador. Los usuarios avanzados pueden añadir **su propio MCP** (un conector estandar para agentes de IA). La conexion con PVsyst y PV\*SOL se hace con [[que-es-suntropy-connect|Suntropy Connect]].
+
+Mas informacion: [[canales-e-integraciones-alexandria]]
+
+### Cuanto cuesta Alexandria?
+
+Toda cuenta de Suntropy tiene un **uso incluido** gratis. Para ampliarlo hay tres planes por cuenta y mes, sin IVA: **Pro** 19,99 € (x2 el uso incluido), **Max** 90 € (x6) y **Ultra** 200 € (x15). Se solicitan en **Configuracion > Plan > Alexandria** y los activa el equipo de Suntropy.
+
+Mas informacion: [[planes-de-alexandria]]
+
+### Necesito un plan de pago de Suntropy para usar Alexandria?
+
+No. Los planes de Alexandria son independientes de los de Suntropy: cualquier cuenta, tambien la gratuita, tiene el uso incluido y puede contratar un plan de Alexandria sin tener un plan de pago de estudios.
+
+Mas informacion: [[planes-de-alexandria]]
+
+### El uso de Alexandria es por usuario o por empresa?
+
+Por empresa: el plan es de toda la cuenta y lo comparten sus usuarios. Para que nadie agote el de todos hay un **limite mensual de la cuenta** y un **limite diario por usuario**. Cuando se alcanza uno, el chat avisa de cuando vuelve a estar disponible; se puede esperar o ampliar el plan.
+
+Mas informacion: [[planes-de-alexandria]]
+
+---
+
+## LeadGen
+
+### Que es LeadGen?
+
+Una herramienta de Suntropy AI para crear **campañas automatizadas que encuentran y cualifican empresas** que pueden ser clientes de energia solar: autoconsumo industrial, baterias o mantenimiento para quien ya tiene placas, autoconsumo colectivo… De cada lead puede obtener la cubierta y su superficie, si ya tiene placas (con año aproximado y potencia estimada), el consumo estimado, la facturacion y el LinkedIn de la empresa y del decisor. Los resultados se ven en tabla y mapa y se exportan a Excel.
+
+Mas informacion: [[leadgen]]
+
+### Sirve para encontrar particulares?
+
+No: esta pensado para **B2B**. Sus fuentes son Google Maps y datos abiertos, asi que encuentra empresas.
+
+Mas informacion: [[leadgen]]
+
+### Cuanto cuesta LeadGen y como lo pruebo?
+
+Funciona con **creditos de LeadGen**: **5 € por cada 1.000 creditos**. El coste por lead depende de los pasos elegidos y de la zona (por ejemplo, unos 39 creditos, 0,19 €, por lead cualificado con consumo, CIF y deteccion de placas). Quien se inscriba en https://www.suntropy.ai/leadgen/ tiene **acceso anticipado desde el 5 de octubre de 2026 con 2.000 creditos de regalo**; el lanzamiento abierto es el 20 de octubre de 2026. La pagina tiene una calculadora para estimar el coste de una campaña.
+
+Mas informacion: [[leadgen]]
+
+### Los creditos de LeadGen son los mismos que los de Suntropy?
+
+No. Los creditos de Suntropy (soles) sirven para crear estudios de autoconsumo; los de LeadGen, para las campañas de captacion. Son independientes, se compran por separado y tampoco forman parte de los planes de Alexandria.
+
+Mas informacion: [[leadgen]], [[creditos]]
 
 ---
 
