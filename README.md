@@ -10,6 +10,7 @@ Repositorio de documentacion para el asistente de soporte de Suntropy. Organizad
 - `plantillas/` - Editor de plantillas de presupuesto y personalizacion
 - `licencias/` - Creditos, suscripciones y metodos de pago
 - `soporte/` - Canales de ayuda y recursos de formacion
+- `suntropy-ai/` - Suntropy AI: Alexandria (que hace, canales, memoria, integraciones, legalizaciones y planes) y LeadGen
 - `connect/` - Suntropy Connect: el programa de escritorio que conecta PVsyst y PV*SOL con Claude o ChatGPT
 
 ## PDFs complementarios
