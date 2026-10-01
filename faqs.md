@@ -304,9 +304,11 @@ Mas informacion: [[legalizaciones-con-alexandria]]
 
 ### Con que aplicaciones se conecta Alexandria?
 
-Desde el panel de aplicaciones conectadas de Alexandria: por ejemplo Gmail, Google Drive y HubSpot, y se iran añadiendo mas (tambien del sector). Se pulsa **Conectar** y se autoriza en el navegador. Los usuarios avanzados pueden añadir **su propio MCP** (un conector estandar para agentes de IA). La conexion con PVsyst y PV\*SOL se hace con [[que-es-suntropy-connect|Suntropy Connect]].
+Desde el panel de aplicaciones conectadas de Alexandria: **Gmail, Outlook, Google Drive, HubSpot, Zoho y ClickUp**, y se iran añadiendo mas (tambien del sector, como OpenSolar). Se pulsa **Conectar** y se autoriza en el navegador. Los usuarios avanzados pueden añadir **su propio MCP** (un conector estandar para agentes de IA).
 
-Mas informacion: [[canales-e-integraciones-alexandria]]
+Para PVsyst y PV\*SOL esta **Suntropy Connect**, una aplicacion de escritorio para Windows que se descarga en https://connect.suntropy.ai y se contrata aparte.
+
+Mas informacion: [[canales-e-integraciones-alexandria]], [[que-es-suntropy-connect]]
 
 ### Cuanto cuesta Alexandria?
 

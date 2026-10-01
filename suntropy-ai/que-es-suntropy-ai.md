@@ -15,7 +15,7 @@ Suntropy AI. Se usa en https://app.suntropy.ai (la cuenta es la misma que en sun
 |---|---|---|
 | **Alexandria** | El agente de IA de Suntropy: hace estudios, edita plantillas, gestiona el inventario, prepara legalizaciones y trabaja con tus apps conectadas | Incluida con cualquier cuenta de Suntropy; ampliable con los [[planes-de-alexandria|planes de Alexandria]] |
 | **LeadGen** | Campañas automatizadas para encontrar y cualificar clientes B2B de energía solar | Por créditos de LeadGen. Ver [[leadgen]] |
-| **Suntropy Connect** | Programa de escritorio que conecta PVsyst y PV\*SOL con asistentes de IA | Suscripción aparte. Ver [[que-es-suntropy-connect]] |
+| **Suntropy Connect** | Aplicación de escritorio para Windows (https://connect.suntropy.ai) que conecta PVsyst y PV\*SOL con Alexandria y otros asistentes de IA | Suscripción aparte. Ver [[que-es-suntropy-connect]] |
 
 ## Qué es Alexandria
 

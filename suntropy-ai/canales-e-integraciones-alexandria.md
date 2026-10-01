@@ -33,9 +33,21 @@ instaladora para las legalizaciones, o que no pida confirmación en pasos interm
 ## Integraciones
 
 Desde el panel de **aplicaciones conectadas** de Alexandria se vinculan las herramientas del
-negocio: se pulsa **Conectar**, se autoriza en el navegador y queda enlazada. Algunos ejemplos
-del catálogo: **Gmail**, **Google Drive** y **HubSpot** (CRM). Con ellas Alexandria puede, por
-ejemplo, subir a Drive la documentación de un proyecto o enviarla por correo desde tu cuenta.
+negocio: se pulsa **Conectar**, se autoriza en el navegador y queda enlazada. El catálogo
+actual:
+
+| Aplicación | Para qué |
+|---|---|
+| **Gmail** | Leer y enviar correos desde tu cuenta |
+| **Outlook** | Lo mismo, con cuentas de Microsoft |
+| **Google Drive** | Guardar y leer documentos (por ejemplo, la documentación de un proyecto) |
+| **HubSpot** | CRM: contactos, empresas, oportunidades |
+| **Zoho** | CRM y otras apps de Zoho |
+| **ClickUp** | Gestión de tareas y proyectos |
+| **Suntropy Connect** | PVsyst y PV\*SOL (ver más abajo) |
+
+Con ellas Alexandria puede, por ejemplo, subir a Drive la documentación de un proyecto o
+enviarla por correo desde tu cuenta.
 
 Se irán añadiendo más integraciones, también con herramientas del sector (por ejemplo,
 OpenSolar está en desarrollo).
@@ -48,8 +60,10 @@ herramienta.
 
 ### PVsyst y PV\*SOL
 
-La conexión con PVsyst y PV\*SOL se hace con **Suntropy Connect**, un producto aparte que se
-instala en el ordenador que tiene esos programas. Ver [[que-es-suntropy-connect]].
+**Suntropy Connect** también aparece en el catálogo. Es una **aplicación de escritorio para
+Windows** que se descarga en https://connect.suntropy.ai y se instala en el ordenador que tiene
+PVsyst o PV\*SOL; se contrata aparte, con prueba gratuita de 7 días. Ver
+[[que-es-suntropy-connect]] e [[instalacion-y-vinculacion-connect]].
 
 ## Integraciones de Suntropy (no de Alexandria)
 
